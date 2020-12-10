@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:weightSum="4">
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/stu_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="22sp"
+        android:layout_weight="0.5"/>
+
+    <TextView
+        android:id="@+id/stu_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Student's Name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/stu_pass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="false"
+        android:textSize="22sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/delete_std"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/ic_baseline_clear_24" />
+
+</LinearLayout>
